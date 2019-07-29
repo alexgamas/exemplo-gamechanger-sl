@@ -1,0 +1,42 @@
+GET /declaracao
+[
+    { "id": 1, "descricao": "Criação de nome e logo" },
+    { "id": 2, "descricao": "Criação de item a mais sobre identidade do projeto" },
+    { "id": 3, "descricao": "Elaboração do Canvas" },
+    { "id": 4, "descricao": "Criação de algo a mais para o Onboarding do projeto" }
+]
+
+PUT /onboarding
+
+{
+    "data": "2018-12-02",
+    "nome": "Projeto WON",
+    "declaracoes": [
+        { "id": 1,  "valor": true },
+        { "id": 4,  "valor": true }
+    ]
+}
+
+GET /onboarding
+[
+    {
+        "data": "2018-12-02",
+        "nome": "Projeto WON",
+        "quantidadeDeclaracao": 3
+    },
+    {
+        "data": "2018-12-02",
+        "nome": "Compraseletronicas",
+        "quantidadeDeclaracao": 0
+    },
+    {
+        "data": "2018-12-02",
+        "nome": "Sabesp Mobile",
+        "quantidadeDeclaracao": 1
+    },
+    {
+        "data": "2018-12-02",
+        "nome": "Pregão",
+        "quantidadeDeclaracao": 2
+    }
+]
