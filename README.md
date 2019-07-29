@@ -12,10 +12,12 @@ https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.reposito
 
 ### connect to database
 
+```properties
 spring_datasource_platform=postgres
 spring_datasource_username=gamechangerproject
 spring_datasource_password=gamechangerproject
 spring_datasource_url=jdbc:postgresql://localhost:5432/gamechanger
+```
 
 
 
